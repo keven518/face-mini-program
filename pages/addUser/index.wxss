@@ -1,0 +1,32 @@
+/* pages/addUser/index.wxss */
+.showView{
+  display: flex
+}
+image{
+  margin-top: 20rpx;
+  margin-left: 150rpx;
+  width:200rpx; 
+  height:200rpx;
+  background-color: lavender
+}
+video{
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  width:200rpx; 
+  height:200rpx;
+  background-color: lavender
+}
+button{
+  margin: 20rpx;
+}
+.camera{
+  width: 500rpx;
+  height: 500rpx;
+  border-radius: 50%;
+}
+.camera{
+  width: 500rpx;
+  height: 500rpx;
+  border-radius: 50%;
+  margin: 40rpx auto;
+}

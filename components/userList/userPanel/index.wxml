@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view>
+  <view class="user-cell">
+    <image class="user-avatar" src='1.jpg' />
+    <text class='user-name'>用户名</text>
+    <button class='user-cell-del-btn' bindtap='delUser'>
+    </button>
+  </view>
+  <view class="user-cell">
+    <image class="user-avatar" src='1.jpg' />
+    <text class='user-name'>用户名</text>
+    <button class='user-cell-del-btn'>
+    </button>
+  </view>
+  <view class="user-cell">
+    <image class="user-avatar" src='1.jpg' />
+    <text class='user-name'>用户名</text>
+    <button class='user-cell-del-btn'>
+    </button>
+  </view>
+  <view class="user-cell">
+    <image class="user-avatar" src='1.jpg' />
+    <text class='user-name'>用户名</text>
+    <button class='user-cell-del-btn'>
+    </button>
+  </view>
+  <view class="user-cell">
+    <image class="user-avatar" src='1.jpg' />
+    <text class='user-name'>用户名</text>
+    <button class='user-cell-del-btn'>
+    </button>
+  </view>
+</view>
+<van-button class='user-btn' type="primary">
+  <image src='add-icon.png' class='add-icon' />
+</van-button>
+
+<van-dialog use-slot title="确认删除" show="{{ show }}" show-cancel-button confirm-button-open-type="getUserInfo" bind:close="onClose" bind:cancel="cancel" bind:confirm="confirm" bind:getuserinfo="getUserInfo">
+  <text class="dialog-txt">删除后该用户无法进行脸部识别</text>
+</van-dialog>
