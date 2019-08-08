@@ -1,0 +1,4 @@
+<!--components/resultStatus/success/index.wxml-->
+<view class='page'>
+  <image src='success.png'></image>
+</view>

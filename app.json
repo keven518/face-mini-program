@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/addUser/index",
     "pages/userList/index",
+    "pages/result/index",
+    "pages/addUser/index",
     "pages/index/index",
     "pages/logs/logs"
   ],

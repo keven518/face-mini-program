@@ -1,1 +1,28 @@
 /* pages/userList/index.wxss */
+
+
+.user-btn button {
+  margin: 60rpx auto 60rpx auto;
+  width: 160rpx;
+  height: 160rpx;
+  background: #017bff;
+  border: 1px solid #017bff;
+  display: block;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-icon{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.dialog-txt{
+  display: block;
+  width: 100%;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 30rpx;
+}

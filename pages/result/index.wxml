@@ -1,0 +1,2 @@
+<!--pages/result/index.wxml-->
+<v-result status='{{status}}' />

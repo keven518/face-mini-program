@@ -5,10 +5,7 @@
   display: flex;
   flex-direction: row;
   padding-bottom: 40rpx;
-  border-bottom: 1px #ccc solid;
-}
-.user-cell:last-child{
-  border-bottom: none;
+  border-bottom: 1rpx #ccc solid;
 }
 
 .user-avatar {
@@ -37,29 +34,4 @@
   background-size: 50rpx;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.user-btn button {
-  margin: 60rpx auto 40rpx auto;
-  width: 160rpx;
-  height: 160rpx;
-  background: #017bff;
-  border: 1px solid #017bff;
-  display: block;
-  padding: 0;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.add-icon{
-  width: 60rpx;
-  height: 60rpx;
-}
-.dialog-txt{
-  display: block;
-  width: 100%;
-  line-height: 80rpx;
-  text-align: center;
-  font-size: 30rpx;
 }
